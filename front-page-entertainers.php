@@ -5,7 +5,7 @@
         <div class="">
             <div class="page-title">
                 <div class="title_left">
-                    <h3>Venues</h3>
+                    <h3>Entertainers</h3>
                 </div>
 
                 <div class="title_right">
@@ -53,8 +53,7 @@
                                         <input type="checkbox" id="check-all" class="flat">
                                     </th>
                                     <th class="column-title">Name </th>
-                                    <th class="column-title">Type</th>
-                                    <th class="column-title">Location</th>
+                                    <th class="column-title">Entertainer Type</th>
                                     <th class="column-title no-link last"><span class="nobr">Availability</span>
                                     </th>
                                     <th class="bulk-actions" colspan="7">
@@ -68,9 +67,8 @@
                                     <td class="a-center ">
                                         <input type="checkbox" class="flat" name="table_records">
                                     </td>
-                                    <td class=" ">Venue 1</td>
-                                    <td class=" ">Theater</td>
-                                    <td class=" ">921 Skyview Ln, Rochester MN</td>
+                                    <td class=" ">Entertainer 1</td>
+                                    <td class=" ">Rock Band</td>
                                     <td class=" last"><a href="#">View</a>
                                     </td>
                                 </tr>
@@ -78,29 +76,8 @@
                                     <td class="a-center ">
                                         <input type="checkbox" class="flat" name="table_records">
                                     </td>
-                                    <td class=" ">Venue 2</td>
-                                    <td class=" ">Wedding Hall</td>
-                                    <td class=" ">322 Caliber Drive, Rochester MN</td>
-                                    <td class=" last"><a href="#">View</a>
-                                    </td>
-                                </tr>
-                                <tr class="even pointer">
-                                    <td class="a-center ">
-                                        <input type="checkbox" class="flat" name="table_records">
-                                    </td>
-                                    <td class=" ">Venue 3</td>
-                                    <td class=" ">School University</td>
-                                    <td class=" ">545 7th Ave, Rochester MN</td>
-                                    <td class=" last"><a href="#">View</a>
-                                    </td>
-                                </tr>
-                                <tr class="odd pointer">
-                                    <td class="a-center ">
-                                        <input type="checkbox" class="flat" name="table_records">
-                                    </td>
-                                    <td class=" ">Venue 4</td>
-                                    <td class=" ">Night Club</td>
-                                    <td class=" ">420 Tazer Ln, Rochester MN</td>
+                                    <td class=" ">Entertainer 2</td>
+                                    <td class=" ">Comedian</td>
                                     <td class=" last"><a href="#">View</a>
                                     </td>
                                 </tr>
