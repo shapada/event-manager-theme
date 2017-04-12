@@ -42,9 +42,8 @@
           <br />
 
           <!-- sidebar menu -->
-          <div id="sidebar-menu" class="main_menu_side hidden-print main_menu">
-            <div class="menu_section">
-             
+            <!--<div class="menu_section">
+
               <ul class="nav side-menu">
                 <li><a><i class="fa fa-home"></i> Dashboard <span class="fa fa-chevron-down"></span></a></li>
                   <li><a><i class="fa fa-male" aria-hidden="true"></i> Entertainers <span class="fa fa-chevron-down"></span></a></li>
@@ -54,8 +53,20 @@
               </ul>
             </div>
 
+            </div>
+            <!-- sidebar menu -->
+            <div id="sidebar-menu" class="main_menu_side hidden-print main_menu">
+                <div class="menu_section">
+			        <?php wp_nav_menu( array(
+				        'theme_location' => 'primary',
+				        'container' 	 => 'ul',
+				        'menu_class'     => 'nav side-menu',
+				        'echo'           => true,
+			        )); ?>
+                </div>
+            </div>
           </div>
-          <!-- /sidebar menu -->
+            <!-- /sidebar menu -->
 
           <!-- /menu footer buttons -->
           <div class="sidebar-footer hidden-small">
