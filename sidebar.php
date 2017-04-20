@@ -98,19 +98,17 @@
             <ul class="nav navbar-nav navbar-right">
               <li class="">
                 <a href="javascript:;" class="user-profile dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
-                  <img src="<?php echo get_avatar_url( 1 ); ?>" alt=""><?php echo get_user_by( 'ID', 1 )->display_name; ?>
+                  <img src="<?php echo get_avatar_url( get_current_user_id() ); ?>" alt=""><?php echo wp_get_current_user()->display_name; ?>
                   <span class=" fa fa-angle-down"></span>
                 </a>
                 <ul class="dropdown-menu dropdown-usermenu pull-right">
-                  <li><a href="javascript:;"> Profile</a></li>
+                  <li><a href="<?php echo admin_url( 'profile.php' ); ?>"> Profile</a></li>
                   <li>
-                    <a href="javascript:;">
-                      <span class="badge bg-red pull-right">50%</span>
+                      <a href="<?php echo admin_url( 'options-general.php' ); ?>">
                       <span>Settings</span>
                     </a>
                   </li>
-                  <li><a href="javascript:;">Help</a></li>
-                  <li><a href="#"><i class="fa fa-sign-out pull-right"></i> Log Out</a></li>
+                  <li><a href="<?php  echo wp_logout_url(); ?>"><i class="fa fa-sign-out pull-right"></i> Log Out</a></li>
                 </ul>
               </li>
 
