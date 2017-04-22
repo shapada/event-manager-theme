@@ -77,7 +77,7 @@
                             </div>
                         </div>
                         <div class="form-group">
-                            < label class="col-sm-3 control-label">Description</label>
+                            <label class="col-sm-3 control-label">Description</label>
                             <div class="col-sm-9">
                                 <textarea class="form-control" style="height:55px;" id="descr2" name="descr"></textarea>
                             </div>
