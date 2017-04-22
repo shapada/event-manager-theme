@@ -10,4 +10,5 @@
 </head>
   <body class="nav-md <?php body_class(); ?>">
     <div class="container body">
-        <?php get_sidebar(); ?>
+        <?php get_template_part( 'template-parts/sidebar'); ?>
+        <?php get_template_part( 'template-parts/top-navigation' ); ?>
