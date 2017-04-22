@@ -19,6 +19,7 @@ get_header(); ?>
                 </div>
             </div>
         </div>
+        <div class="clearfix"></div>
     </div>
 
 <?php get_footer(); ?>

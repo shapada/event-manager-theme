@@ -1,6 +1,6 @@
 <div class="top_nav">
 	<div class="nav_menu">
-		<nav class="" role="navigation">
+		<nav role="navigation">
 			<ul class="nav navbar-nav navbar-right">
 				<li>
 					<a href="javascript:;" class="user-profile dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
