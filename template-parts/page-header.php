@@ -7,3 +7,5 @@
 		<?php get_template_part( 'template-parts/header-search'); ?>
 	</div>
 </div>
+
+<div class="clearfix"></div>

@@ -6,11 +6,9 @@ $refinement = new VenuesRefinement();
 $refinement->register();
 
 get_header(); ?>
-s
+
     <div class="right_col" role="main">
 		<?php get_template_part( 'template-parts/page-header' ); ?>
-
-        <div class="clearfix"></div>
 
         <div class="col-md-12 col-sm-12 col-xs-12">
             <div class="x_panel">
