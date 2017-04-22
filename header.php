@@ -10,3 +10,4 @@
 </head>
   <body class="nav-md <?php body_class(); ?>">
     <div class="container body">
+        <?php get_sidebar(); ?>
