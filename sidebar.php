@@ -2,14 +2,8 @@
 /**
  * The sidebar containing the main widget area
  *
- * @link https://developer.wordpress.org/themes/basics/template-files/#template-partials
- *
  * @package Event_Manager
  */
-
-// if ( ! is_active_sidebar( 'left-navigation' ) ) {
-// 	return;
-// }
 ?>
 <body class="nav-md">
   <div class="container body">
