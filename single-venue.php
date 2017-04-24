@@ -35,6 +35,17 @@ get_header(); ?>
                             <p><?php echo get_field( 'description' ); ?></p>
                         </div>
                     </div>
+                    <div class="col-md-12 col-sm-12 col-xs-12">
+                        <div class="profile_title">
+                            <div class="col-md-6">
+                                <h2>Upcoming Events</h2>
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <br>
+                            <div id='calendar'></div>
+                        </div>
+                    </div>
                 </div>
 
             </div>

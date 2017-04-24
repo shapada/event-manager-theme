@@ -9,18 +9,13 @@ get_header(); ?>
 				<?php get_template_part( 'template-parts/panel-header' ); ?>
 
                 <div class="x_content">
-
                     <div class="col-md-3 col-sm-3 col-xs-12 profile_left">
-
                         <img class="img-responsive" src="<?php echo get_field( 'image' )['url']; ?>">
-                        
                         <h3><?php the_title(); ?></h3>
-
 	                    <?php $entertainer_type = get_the_terms( get_the_ID(), 'entertainer_type' ); ?>
                         <ul class="list-unstyled user_data">
                             <li>Type: <?php echo "{$entertainer_type[0]->name}"; ?></li>
                         </ul>
-
                     </div>
                     <div class="col-md-9 col-sm-9 col-xs-12">
                         <div class="profile_title">
@@ -32,8 +27,18 @@ get_header(); ?>
                             <p><?php echo get_field( 'description' ); ?></p>
                         </div>
                     </div>
+                    <div class="col-md-12 col-sm-12 col-xs-12">
+                        <div class="profile_title">
+                            <div class="col-md-6">
+                                <h2>Upcoming Events</h2>
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <br>
+                            <div id='calendar'></div>
+                        </div>
+                    </div>
                 </div>
-
             </div>
 		</div>
 		<div class="clearfix"></div>
