@@ -8,6 +8,7 @@
  */
 
 use EventManager\Search\SearchRefinement;
+
 $refinement = new SearchRefinement();
 $refinement->register();
 
