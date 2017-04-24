@@ -4,7 +4,7 @@
         if ( is_front_page() ) {
             $title = the_title();
         } elseif ( is_page( 'entertainers' ) || is_page( 'venues' ) ) {
-            $title = the_title( 'All' );
+            $title = the_title( 'All ' );
         } elseif ( is_search() ) {
             $title = 'Search Results';
         } elseif ( is_singular( 'entertainer' ) ) {

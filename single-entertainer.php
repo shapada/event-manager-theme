@@ -18,7 +18,7 @@ get_header(); ?>
 
 	                    <?php $entertainer_type = get_the_terms( get_the_ID(), 'entertainer_type' ); ?>
                         <ul class="list-unstyled user_data">
-                            <li>Type: <?php echo "{$entertainer_type[0]->name}"; ?></li>
+                            <li>Entertainment Type: <?php echo "{$entertainer_type[0]->name}"; ?></li>
                         </ul>
 
                     </div>
