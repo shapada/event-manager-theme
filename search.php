@@ -1,26 +1,30 @@
 <?php
 /**
- * The template for displaying search results pages
+ * Template Name: Search
  *
  * @link https://developer.wordpress.org/themes/basics/template-hierarchy/#search-result
  *
  * @package Event_Manager
  */
 
+use EventManager\Search\SearchRefinement;
+
 get_header(); ?>
 
-		<?php
-		if ( have_posts() ) : ?>
+<div class="right_col" role="main">
+	<?php get_template_part( 'template-parts/page-header' ); ?>
 
-			<?php
-			/* Start the Loop */
-			while ( have_posts() ) : the_post();
+    <div class="col-md-12 col-sm-12 col-xs-12">
+        <div class="x_panel">
+			<?php get_template_part( 'template-parts/panel-header' ); ?>
 
-			echo 'yes';
+            <div class="x_content">
+				<?php  ?>
+            </div>
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
 
 
-			endwhile;
-
-		endif; ?>
-<?php
-get_footer();
+<?php get_footer(); ?>

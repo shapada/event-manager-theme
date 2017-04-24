@@ -1,4 +1,14 @@
 <div class="x_title">
-    <h2><?php echo ( ( is_front_page() || is_singular() ) ? '' : 'All' ); ?> <?php the_title(); ?></h2>
+    <?php
+        $title = '';
+        if ( is_front_page() || is_singular()  ) {
+            $title = the_title();
+        } elseif ( is_page( 'entertainers' ) || is_page( 'venues' ) ) {
+            $title = the_title( 'All' );
+        } elseif ( is_search() ) {
+            $title = 'Search Results';
+        }
+    ?>
+    <h2><?php echo $title; ?></h2>
     <div class="clearfix"></div>
 </div>
