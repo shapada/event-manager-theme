@@ -8,6 +8,8 @@
  */
 
 use EventManager\Search\SearchRefinement;
+$refinement = new SearchRefinement();
+$refinement->register();
 
 get_header(); ?>
 
@@ -19,12 +21,11 @@ get_header(); ?>
 			<?php get_template_part( 'template-parts/panel-header' ); ?>
 
             <div class="x_content">
-				<?php  ?>
+				<?php $refinement->render_data_table(); ?>
             </div>
         </div>
     </div>
     <div class="clearfix"></div>
 </div>
-
 
 <?php get_footer(); ?>
